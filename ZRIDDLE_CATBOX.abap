@@ -163,7 +163,7 @@ FORM shift_cat  USING low high.
 
   gv_cat = lv_move.
 
-*Place Cat In Box #^•#•^#
+*Place Cat In Box #^â€¢#â€¢^#
   READ TABLE gt_boxes INTO gs_boxes WITH KEY boxno = gv_cat.
   gs_boxes-cat = 'X'.
   MODIFY gt_boxes FROM gs_boxes INDEX gs_boxes-boxno.
